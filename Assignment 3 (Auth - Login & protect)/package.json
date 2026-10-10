@@ -1,0 +1,17 @@
+{
+  "name": "assignment-3-auth-login-protect",
+  "version": "1.0.0",
+  "description": "Secure Express API with Supabase authentication and protected routes",
+  "type": "module",
+  "main": "src/server.js",
+  "scripts": {
+    "dev": "node --watch src/server.js",
+    "start": "node src/server.js"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.58.0",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "swagger-ui-express": "^5.0.1"
+  }
+}
